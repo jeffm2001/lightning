@@ -23,7 +23,10 @@
         "squizlabs/php_codesniffer": "2.*"
     },
     "config": {
-        "bin-dir": "bin/"
+        "bin-dir": "bin/",
+        "platform": {
+          "php": "5.6.40"
+        }
     },
     "repositories": [
         {
@@ -59,10 +62,6 @@
             "drupal/ctools": {
                 "2747739 - Mega patch":
                 "https://www.drupal.org/files/issues/ctools--8.x-3.0-alpha26--1fe3649.patch"
-            },
-            "drupal/metatag": {
-                "2765137 - hook_install() + drupal_set_message() = message displayed several times when using a distro.":
-                "https://www.drupal.org/files/issues/2765137-2.patch"
             },
             "drupal/page_manager": {
                 "2747739 - Mega Patch":
