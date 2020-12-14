@@ -23,10 +23,7 @@
         "squizlabs/php_codesniffer": "2.*"
     },
     "config": {
-        "bin-dir": "bin/",
-        "platform": {
-          "php": "5.6.40"
-        }
+        "bin-dir": "bin/"
     },
     "repositories": [
         {
@@ -94,12 +91,6 @@
             "drupal/workbench_moderation": {
                 "2668006 - Provide logical access control for when IPE should be applied to moderated nodes":
                 "https://www.drupal.org/files/issues/2668006-2.patch"
-            },
-            "drush/drush": {
-                "Adding composer.json support to make-convert command":
-                "https://github.com/drush-ops/drush/commit/ce82b946d49b09cd33da5ca84feb24a6c35f8f8e.patch",
-                "The batch table may not exist by the time _drush_backend_batch_process() is called in 8.x-1.x":
-                "https://github.com/drush-ops/drush/commit/c389aebb7d3e26ff0f544684d8b3ec3528107e55.diff"
             }
         }
     },
